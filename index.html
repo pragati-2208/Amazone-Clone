@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Amazon Clone</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+<header>
+
+  <!-- NAVBAR -->
+
+  <div class="navbar">
+
+    <div class="nav-logo border">
+      <img
+      src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg"
+      alt="Amazon Logo"
+      class="amazon-logo">
+    </div>
+
+    <div class="nav-address border">
+
+      <p class="add-1">Deliver to</p>
+
+      <div class="add-icon">
+        <i class="fa-solid fa-location-dot"></i>
+        <p class="add-2">India</p>
+      </div>
+
+    </div>
+
+    <div class="nav-search">
+
+      <select class="search-select">
+        <option>All</option>
+      </select>
+
+      <input
+      type="text"
+      placeholder="Search Amazon"
+      class="search-input">
+
+      <div class="search-icon">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+
+    </div>
+
+    <div class="nav-signin border">
+      <p><span>Hello, Sign in</span></p>
+      <p class="nav-sec">Accounts & Lists</p>
+    </div>
+
+    <div class="nav-return border">
+      <p><span>Returns</span></p>
+      <p class="nav-sec">& Orders</p>
+    </div>
+
+    <div class="nav-cart border">
+      <i class="fa-solid fa-cart-shopping"></i>
+      Cart
+    </div>
+
+  </div>
+
+  <!-- PANEL -->
+
+  <div class="panel">
+
+    <div class="panel-all border">
+      <i class="fa-solid fa-bars"></i>
+      All
+    </div>
+
+    <div class="panel-ops">
+      <a>Today's Deals</a>
+      <a>Customer Service</a>
+      <a>Registry</a>
+      <a>Gift Cards</a>
+      <a>Sell</a>
+    </div>
+
+    <div class="panel-deals border">
+      Shop Deals in Electronics
+    </div>
+
+  </div>
+
+</header>
+
+<!-- HERO SECTION -->
+
+<div class="hero-section">
+
+  <div class="hero-slider">
+
+    <img class="slide active"
+    src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?q=80&w=1600">
+
+    <img class="slide"
+    src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1600">
+
+    <img class="slide"
+    src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1600">
+
+  </div>
+
+  <div class="hero-msg">
+    <p>
+      You are on amazon.com. You can also shop on
+      <a href="https://www.amazon.in" target="_blank">
+        Amazon India
+      </a>
+      for millions of products with fast local delivery.
+    </p>
+  </div>
+
+</div>
+
+<!-- CATEGORY SECTION -->
+
+<div class="category-section">
+
+  <div class="category-card">
+    <i class="fa-solid fa-laptop"></i>
+    <p>Electronics</p>
+  </div>
+
+  <div class="category-card">
+    <i class="fa-solid fa-shirt"></i>
+    <p>Fashion</p>
+  </div>
+
+  <div class="category-card">
+    <i class="fa-solid fa-couch"></i>
+    <p>Furniture</p>
+  </div>
+
+  <div class="category-card">
+    <i class="fa-solid fa-mobile-screen"></i>
+    <p>Mobiles</p>
+  </div>
+
+  <div class="category-card">
+    <i class="fa-solid fa-gamepad"></i>
+    <p>Gaming</p>
+  </div>
+
+</div>
+
+<!-- SHOP SECTION -->
+
+<div class="shop-section">
+
+  <div class="box">
+    <div class="box-content">
+
+      <h2>Health & Personal Care</h2>
+
+      <div class="box-img"
+      style="background-image:url('https://images.unsplash.com/photo-1515377905703-c4788e51af15?q=80&w=1200');">
+      </div>
+
+<button class="shop-btn" onclick="openPage('health')"> See More</button>
+
+    </div>
+  </div>
+
+  <div class="box">
+    <div class="box-content">
+
+      <h2>Electronics</h2>
+
+      <div class="box-img"
+      style="background-image:url('https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?q=80&w=1200');">
+      </div>
+
+      <button class="shop-btn" onclick="openPage('electronics')">See More</button>
+
+    </div>
+  </div>
+
+  <div class="box">
+    <div class="box-content">
+
+      <h2>Fashion</h2>
+
+      <div class="box-img"
+      style="background-image:url('https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80&w=1200');">
+      </div>
+
+      <button class="shop-btn" onclick="openPage('fashion')">See More</button>
+
+    </div>
+  </div>
+
+</div>
+
+<!-- FOOTER -->
+
+<footer>
+
+  <div class="foot-panel1">
+    Back to Top
+  </div>
+
+  <div class="foot-panel2">
+
+    <ul>
+      <p>Get to Know Us</p>
+      <a>Careers</a>
+      <a>About Amazon</a>
+      <a>Investor Relations</a>
+    </ul>
+
+    <ul>
+      <p>Make Money with Us</p>
+      <a>Sell Products</a>
+      <a>Become an Affiliate</a>
+      <a>Advertise Your Products</a>
+    </ul>
+
+    <ul>
+      <p>Amazon Payment Products</p>
+      <a>Business Card</a>
+      <a>Shop with Points</a>
+      <a>Reload Balance</a>
+    </ul>
+
+  </div>
+
+  <div class="foot-panel4">
+
+    <div class="pages">
+      <a>Conditions of Use</a>
+      <a>Privacy Notice</a>
+      <a>Your Ads Privacy Choices</a>
+    </div>
+
+    <div class="copyright">
+      © 2026 Amazon Clone
+    </div>
+
+  </div>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
